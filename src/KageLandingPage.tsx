@@ -5,5 +5,5 @@ import { KAGE_TYPOGRAPHY } from './shaders/landing-pages/pageRecipes';
 export function KageLandingPage(props: LandingPageProps & PageTypographyProps) {
   const [type, frame] = splitTypographyProps(props);
   const customization = usePageTypography(KAGE_TYPOGRAPHY, type);
-  return <LandingPageFrame {...frame} customization={customization} title="Kage — Where stillness reveals the unseen" sourceUrl="/landing-pages/kage.html" />;
+  return <LandingPageFrame {...frame} customization={customization} title="Kage — Where stillness reveals the unseen" sourceUrl="/LP_Kage/landing-pages/kage.html" />;
 }
